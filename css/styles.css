@@ -1,9 +1,10 @@
-body {
+body,
+.body {
     font-family: Roboto, sans-serif;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -40,6 +41,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434445;
+    font-style: normal;
 }
 
 .address-list:hover,
@@ -116,6 +118,6 @@ footer {
     background-color: #FFFFFF;
 }
 
-.footer {
-
+.span {
+    color: #F4F4FD;
 }
