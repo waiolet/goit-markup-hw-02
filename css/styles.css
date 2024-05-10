@@ -40,7 +40,7 @@ body,
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434445;
+    color: #434455;
     font-style: normal;
 }
 
@@ -119,5 +119,5 @@ footer {
 }
 
 .span {
-    color: #F4F4FD;
+    color: #f4f4fd;
 }
