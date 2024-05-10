@@ -1,65 +1,106 @@
 body {
-    font-family: Roboto, Raleway, sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 2%;
     color: #434455;
-    background-color: #FCFCFC;
+    background-color: #FFFFFF;
 }
 
-h1 {
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo span {
+    color: #2E2F42;
+}
+
+.nav-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.nav-list:hover,
+.nav-list:focus {
+    color: #404BBF;
+}
+
+.address-list {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434445;
+}
+
+.address-list:hover,
+.address-list:focus {
+    color: #404BBF;
+}
+
+.titel-one {
     font-weight: bold;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    text-align: center;
     color: #FFFFFF
 }
 
-h2 {
-    font-weight: bold;
-    font-size: 36px;
-    letter-spacing: 2%;
-    color: #2E2F42;
-}
-
-h3 {
-    font-weight: medium;
-    font-size: 20px;
-    color: #2E2F42;
-}
-
 .button {
-    font-weight: medium;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
 }
 
-.body-medium {
-    font-weight: medium;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 2%;
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+}
+.titel-two {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    text-transform: capitalize;
+}
+
+.titel-three {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
-.link {
-    font-size: 12px;
-    line-height: 1.333;
-    letter-spacing: 4%;
-    text-decoration: underline;
-    color: #434455;
+.paragraph {
+    font-size: 16px;
+    letter-spacing: 0.02em;
 }
+
+
 
 .body-footer {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
-    color: #FFFFFF;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
 
 .section-one,
@@ -75,12 +116,6 @@ footer {
     background-color: #FFFFFF;
 }
 
-a:hover,
-.button:hover,
-a:focus,
-.button:hover,
-.link:hover,
-.link:focus {
-    color: #4D5AE5;
-}
+.footer {
 
+}
